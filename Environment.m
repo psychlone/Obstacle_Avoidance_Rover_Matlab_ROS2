@@ -1,4 +1,5 @@
 function env = Environment()
+%#codegen
 %% Map parameters
 env.mapWidth  = 30;     % meters
 env.mapHeight = 30;     % meters

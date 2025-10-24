@@ -1,4 +1,6 @@
 function [x_ref, y_ref, theta_ref] = SimpleAStarPlanner(startPose, goalPose, map)
+%#codegen
+
 % Simple A* planner for occupancyMap
 % Outputs: x_ref, y_ref, theta_ref
 

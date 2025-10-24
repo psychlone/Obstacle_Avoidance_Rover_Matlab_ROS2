@@ -1,5 +1,5 @@
 function rover = RoverParams()
-
+%#codegen
 %% Physical parameters
 rover.mass             = 15;         % kg
 rover.wheelRadius      = 0.10;       % m

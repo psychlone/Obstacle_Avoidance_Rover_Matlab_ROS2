@@ -1,4 +1,5 @@
 %% Helper function to generate random obstacles
+%#codegen
 function obstacles = obstacles(numObstacles, mapWidth, mapHeight, ...
     startPose, goalPose, minSize, maxSize, minClearance)
     
