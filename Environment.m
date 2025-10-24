@@ -42,12 +42,12 @@ end
 inflate(env.map, inflationRadius); % Inflate obstacles for rover radius (safety margin)
 
 %% Check Start and End Positions
-if checkOccupancy(env.map, [env.startPose(1), env.startPose(2)])
-    warning('Start position is occupied!');
-end
-if checkOccupancy(env.map, [env.goalPose(1), env.goalPose(2)])
-    warning('Goal position is occupied!');
-end
+% if checkOccupancy(env.map, [env.startPose(1), env.startPose(2)])
+%     warning('Start position is occupied!');
+% end
+% if checkOccupancy(env.map, [env.goalPose(1), env.goalPose(2)])
+%     warning('Goal position is occupied!');
+% end
 
 %% Visualization
 figure('Name','Simulation Environment'); 

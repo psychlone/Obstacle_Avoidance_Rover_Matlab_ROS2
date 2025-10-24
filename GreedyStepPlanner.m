@@ -8,7 +8,7 @@ function heading = GreedyStepPlanner(x, y, theta, goalXY, map, ...
 gx = goalXY(1); gy = goalXY(2);
 goalHeading = atan2(gy - y, gx - x);
 
-% Build candidate headings: goal first, then ±sidesteps relative to goal
+% Build candidate headings: goal first, then sidesteps relative to goal
 nC = numel(sidestepDeg);
 cands = zeros(nC,1);
 for i = 1:nC
